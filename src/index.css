@@ -19,6 +19,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body .logo-name {
+  font-family: 'Great Vibes', cursive !important;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   html,
@@ -26,7 +29,4 @@ body {
     font-size: rem;
     line-height: normal;
   }
-}
-.logo-name {
-  font-family: 'Great Vibes', cursive !important;
 }

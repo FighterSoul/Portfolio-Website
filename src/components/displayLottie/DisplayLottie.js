@@ -4,7 +4,7 @@ import Loading from "../../containers/loading/Loading";
 
 export default class DisplayLottie extends Component {
   render() {
-    const animationData = this.props.animationData;
+    const { animationData, width, height } = this.props;
     const defaultOptions = {
       loop: true,
       autoplay: true,
@@ -16,6 +16,7 @@ export default class DisplayLottie extends Component {
         <Lottie
           animationData={defaultOptions.animationData}
           loop={defaultOptions.loop}
+          style={{width: width, height: height}} // Add this line
         />
       </Suspense>
     );

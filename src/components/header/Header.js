@@ -27,7 +27,7 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
+          <span className="logo-name" style={{ fontFamily: 'Great Vibes, cursive' }}>{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -72,6 +72,10 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
+          <li>
+            <a href="https://www.buymeacoffee.com/hediabdessalem/extras">Shop</a>
+          </li>
+          
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>

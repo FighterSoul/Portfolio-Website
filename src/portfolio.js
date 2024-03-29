@@ -21,11 +21,11 @@ const illustration = {
 
 const greeting = {
   username: "Mohamed Hedi Abdessalem",
-  title: "Hi, I'm Mohamed Hedi Abdessalem",
+  title: "Hi, I'm Hedi",
   subTitle: emoji(
-    "A passionate Full Stack Software Engineering student 🚀   My main focus is building Web and Mobile applications with JavaScript / Angular 🅰️  / Node / React ⚛️  and some other cool libraries and frameworks. Interested in Code Testing 🧪  and exploring Space Algorithm  🌌 🚀"  ),
+    "A passionate Full Stack Software Engineering student 🚀   My main focus is building Web and Mobile applications with JavaScript / Angular 🅰️  / Node / React ⚛️  and some other cool libraries and frameworks. Interested in Code Testing 🧪  and exploring Algorithms  🌌 🚀"  ),
   resumeLink:
-    "https://drive.google.com/file/d/10NG4IUoLFk-cLO-bF00bL8FaY36drF1T/view?usp=drive_link", // Set to empty to hide the button
+    "https://1drv.ms/b/s!AsPEuRdLa6YLhut0dZ86yd_gVq3R7A?e=bCHCAK", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,7 +52,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A CHOLO SOFTWARE ENGINEERIGN STUDENT WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A SOFTWARE ENGINEERIGN STUDENT WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Developing highly interactive Front-end / User Interfaces for web and mobile applications"
@@ -191,10 +191,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node-js" // There's no specific Express.js icon in FontAwesome, so we use the Node.js icon
     },
     {
-      skillName: "flask",
-      fontAwesomeClassname: "fab fa-python" // There's no specific Flask icon in FontAwesome, so we use the generic flask icon
-    },
-    {
       skillName: "angular",
       fontAwesomeClassname: "fab fa-angular"
     },
@@ -226,7 +222,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -238,12 +234,8 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     },
-    {
-      Stack: "Sucking",
-      progressPercentage: "0%"
-    }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -254,30 +246,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Web Developer",
+      company: "Dundill",
+      companylogo: require("./assets/images/DundillLogo.png"),
+      date: "April 01 – Present",
+      desc: "Front end web development.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -293,7 +271,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME TECH THAT I HELPED CREATE",
   projects: [
     {
       image: require("./assets/images/EPI.png"),
@@ -307,17 +285,6 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/OE.png"),
-      projectName: "OutfitExpress",
-      projectDesc: "Contributed in the development of a web application for a clothing brand",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -343,11 +310,7 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "More Info",
+          name: "IEEE SB EPI",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
@@ -362,6 +325,10 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        },
+        {
+          name: "EPI CO-PRO",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
@@ -374,7 +341,55 @@ const achievementSection = {
       footerLink: [
         {name: "Certification", url: ""},
       ]
-    }
+    },
+    {
+      title: "Responsive Web Design",
+      subtitle: "freeCodeCamp Certificate. This certification covers basic HTML, CSS, and JavaScript to build responsive web designs.",
+      image: require("./assets/images/fcc.png"),
+      imageAlt: "fcc Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+      ]
+    },
+    {
+      title: "Quick Sort Algorithm Workshop",
+      subtitle: "I held a Workshop and a Competition on Quick Sort Algorithm for students in EPI.",
+      image: require("./assets/images/quicksort.png"), // replace with the path to your image
+      imageAlt: "Quick Sort Logo", // replace with appropriate alt text
+      footerLink: [
+        {name: "Certification", url: ""}, // replace with the URL to your certificate
+        {
+          name: "EPI CO-PRO",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
+    },
+    {
+      title: "Basic Problem Solving",
+      subtitle: "HackerRank Certificate. This certification validates basic problem solving skills using programming.",
+      image: require("./assets/images/hackerrank.png"), // replace with the path to your image
+      imageAlt: "HackerRank Logo", // replace with appropriate alt text
+      footerLink: [
+        {name: "Certification", url: ""}, // replace with the URL to your certificate
+      ]
+    },
+    {
+      title: "Event Organization and Film Discussion Certificate",
+      subtitle:
+        "'Sair Movie' event coordination and participation certificate in EPI.",
+      image: require("./assets/images/readers.png"),
+      imageAlt: "readersEPI",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        },
+        {
+          name: "Readers EPI",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -388,14 +403,17 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://medium.com/@hedi.abdessalem/navigating-the-cosmos-unraveling-the-wonders-of-space-algorithms-82418aa3c1bc",
-      title: "Wonders of space algorithms",
+      url: "https://medium.com/@hedi.abdessalem/navigating-the-code-best-practices-for-aspiring-software-engineers-f9d3849ce4b8",
+      title: "Coding best practices",
       description:
-        "Navigating the Cosmos: Unraveling the Wonders of Space Algorithms"
-    }
+        "Coding standards, clean code principles, and best practices: How to write efficient, maintainable, and scalable code."
+    },
+    
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Talks Sections
 
@@ -426,7 +444,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {

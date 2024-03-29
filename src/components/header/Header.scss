@@ -1,4 +1,5 @@
 @import "../../_globalColor";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 /*React-headroom*/
 .headroom-wrapper {
@@ -67,7 +68,7 @@
   padding: 0 10px;
 }
 .logo-name {
-  font-family: 'Great Vibes', cursive !important;
+  font-family: 'Great Vibes', cursive;
 }
 
 /* menu */

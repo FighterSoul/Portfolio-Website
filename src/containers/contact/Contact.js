@@ -3,9 +3,9 @@ import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
-import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import animation from "../../assets/lottie/boy-under-social-tree.json";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
@@ -54,7 +54,7 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={email} />
+              <DisplayLottie animationData={animation} width="900px" height="600px" />
             ) : (
               <img
                 alt="Man working"
