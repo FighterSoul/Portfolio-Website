@@ -46,6 +46,6 @@ export default function Profile() {
       </Suspense>
     );
   } else {
-    return <p>Profile information not available</p>;;
+    return <p>Profile information not available</p>;
   }
 }

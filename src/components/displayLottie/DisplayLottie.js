@@ -4,7 +4,7 @@ import Loading from "../../containers/loading/Loading";
 
 export default class DisplayLottie extends Component {
   render() {
-    const { animationData, width, height } = this.props;
+    const {animationData, width, height} = this.props;
     const defaultOptions = {
       loop: true,
       autoplay: true,

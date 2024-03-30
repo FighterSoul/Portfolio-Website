@@ -14,8 +14,7 @@ export default function GithubProfileCard({prof}) {
       <div className="main" id="contact">
         <div className="row">
           <div className="main-content-profile">
-            <div className="blog-header">
-            </div>
+            <div className="blog-header"></div>
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
@@ -38,7 +37,7 @@ export default function GithubProfileCard({prof}) {
             )}
             <div className="opp-div">
               <span className="desc-prof">
-                Open for opportunities: {prof.hireable ? 'Yes' : 'No'}
+                Open for opportunities: {prof.hireable ? "Yes" : "No"}
               </span>
             </div>
           </div>

@@ -103,7 +103,6 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-      
 
       {socialMediaLinks.medium ? (
         <a
@@ -141,17 +140,17 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-{socialMediaLinks.spotify ? (
-  <a
-    href={socialMediaLinks.spotify}
-    className="icon-button spotify"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <i className="fab fa-spotify"></i>
-    <span></span>
-  </a>
-) : null}
+      {socialMediaLinks.spotify ? (
+        <a
+          href={socialMediaLinks.spotify}
+          className="icon-button spotify"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-spotify"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }

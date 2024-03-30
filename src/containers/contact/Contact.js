@@ -54,7 +54,11 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={animation} width="900px" height="600px" />
+              <DisplayLottie
+                animationData={animation}
+                width="900px"
+                height="600px"
+              />
             ) : (
               <img
                 alt="Man working"
@@ -67,4 +71,3 @@ export default function Contact() {
     </Fade>
   );
 }
-

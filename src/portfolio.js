@@ -23,9 +23,9 @@ const greeting = {
   username: "Mohamed Hedi Abdessalem",
   title: "Hi, I'm Hedi",
   subTitle: emoji(
-    "A passionate Full Stack Software Engineering student 🚀   My main focus is building Web and Mobile applications with JavaScript / Angular 🅰️  / Node / React ⚛️  and some other cool libraries and frameworks. Interested in Code Testing 🧪  and exploring Algorithms  🌌 🚀"  ),
-  resumeLink:
-    "https://1drv.ms/b/s!AsPEuRdLa6YLhut0dZ86yd_gVq3R7A?e=bCHCAK", // Set to empty to hide the button
+    "A passionate Full Stack Software Engineering student 🚀   My main focus is building Web and Mobile applications with JavaScript / Angular 🅰️  / Node / React ⚛️  and some other cool libraries and frameworks. Interested in Code Testing 🧪  and exploring Algorithms  🌌 🚀"
+  ),
+  resumeLink: "https://1drv.ms/b/s!AsPEuRdLa6YLhut0dZ86yd_gVq3R7A?e=bCHCAK", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,7 +52,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A SOFTWARE ENGINEERIGN STUDENT WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "A SOFTWARE ENGINEERIGN STUDENT WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Developing highly interactive Front-end / User Interfaces for web and mobile applications"
@@ -60,7 +61,9 @@ const skillsSection = {
     emoji(
       "⚡ Integrating Back-end technologies creating full stack applications"
     ),
-    emoji("⚡ Solving complex algorithm challenges, and achieving top-tier rankings in competitive programming"),
+    emoji(
+      "⚡ Solving complex algorithm challenges, and achieving top-tier rankings in competitive programming"
+    ),
     emoji(
       "⚡ Passionate about Ethical Hacking, learning and applying security skills  "
     )
@@ -193,9 +196,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "angular",
       fontAwesomeClassname: "fab fa-angular"
-    },
-    
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -211,10 +212,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2022 - Juin 2025",
       desc: "Software Engineer Diploma.",
-      descBullets: [
-        "Front & Backe End Development",
-        "Programming",
-      ]
+      descBullets: ["Front & Backe End Development", "Programming"]
     }
   ]
 };
@@ -235,7 +233,7 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "90%"
-    },
+    }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -255,7 +253,7 @@ const workExperiences = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
+    }
   ]
 };
 
@@ -276,7 +274,8 @@ const bigProjects = {
     {
       image: require("./assets/images/EPI.png"),
       projectName: "EPIverse",
-      projectDesc: "Created a Social App for my University that has alot of cool features like creating study groups, following what's trending, and much more",
+      projectDesc:
+        "Created a Social App for my University that has alot of cool features like creating study groups, following what's trending, and much more",
       footerLink: [
         {
           name: "Visit Website",
@@ -284,7 +283,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -300,8 +299,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "IEEEXtreme 17.0 finalist",
-      subtitle:
-        "Silver Medal in IEEEXtreme 17.0 competition in EPI.",
+      subtitle: "Silver Medal in IEEEXtreme 17.0 competition in EPI.",
       image: require("./assets/images/IEEE.png"),
       imageAlt: "IEEE SB EPI",
       footerLink: [
@@ -317,8 +315,7 @@ const achievementSection = {
     },
     {
       title: "2Fast Coding Challenge finalist",
-      subtitle:
-        "Silver Medal in 2Fast Coding Challenge competition in EPI.",
+      subtitle: "Silver Medal in 2Fast Coding Challenge competition in EPI.",
       image: require("./assets/images/2Fast.jpg"),
       imageAlt: "2Fast challenge",
       footerLink: [
@@ -338,22 +335,20 @@ const achievementSection = {
       subtitle: "Completed Certifcation from Meta for Front-End Developer.",
       image: require("./assets/images/Meta.png"),
       imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-      ]
+      footerLink: [{name: "Certification", url: ""}]
     },
     {
       title: "Responsive Web Design",
-      subtitle: "freeCodeCamp Certificate. This certification covers basic HTML, CSS, and JavaScript to build responsive web designs.",
+      subtitle:
+        "freeCodeCamp Certificate. This certification covers basic HTML, CSS, and JavaScript to build responsive web designs.",
       image: require("./assets/images/fcc.png"),
       imageAlt: "fcc Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-      ]
+      footerLink: [{name: "Certification", url: ""}]
     },
     {
       title: "Quick Sort Algorithm Workshop",
-      subtitle: "I held a Workshop and a Competition on Quick Sort Algorithm for students in EPI.",
+      subtitle:
+        "I held a Workshop and a Competition on Quick Sort Algorithm for students in EPI.",
       image: require("./assets/images/quicksort.png"), // replace with the path to your image
       imageAlt: "Quick Sort Logo", // replace with appropriate alt text
       footerLink: [
@@ -366,11 +361,12 @@ const achievementSection = {
     },
     {
       title: "Basic Problem Solving",
-      subtitle: "HackerRank Certificate. This certification validates basic problem solving skills using programming.",
+      subtitle:
+        "HackerRank Certificate. This certification validates basic problem solving skills using programming.",
       image: require("./assets/images/hackerrank.png"), // replace with the path to your image
       imageAlt: "HackerRank Logo", // replace with appropriate alt text
       footerLink: [
-        {name: "Certification", url: ""}, // replace with the URL to your certificate
+        {name: "Certification", url: ""} // replace with the URL to your certificate
       ]
     },
     {
@@ -389,7 +385,7 @@ const achievementSection = {
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -407,13 +403,10 @@ const blogSection = {
       title: "Coding best practices",
       description:
         "Coding standards, clean code principles, and best practices: How to write efficient, maintainable, and scalable code."
-    },
-    
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Talks Sections
 
