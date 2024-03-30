@@ -250,8 +250,9 @@ const workExperiences = {
       date: "April 01 – Present",
       desc: "Front end web development.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Internship",
+        "Web and Mobile apps dev tester "
+       
       ]
     }
   ]
